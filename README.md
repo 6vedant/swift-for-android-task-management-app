@@ -2,6 +2,9 @@
 
 This Android app is a simple task management application that utilizes Swift for calling a Swift Package Manager (SPM) library for task management. The SPM library internally uses OpenCombine for publishing and subscribing to task modification changes.
 
+![Task Management App Demo](images/app.gif)
+
+
 ## Features
 
 - Display tasks in a RecyclerView.
