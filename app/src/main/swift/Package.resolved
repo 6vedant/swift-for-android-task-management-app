@@ -1,12 +1,30 @@
 {
   "pins" : [
     {
+      "identity" : "opencombine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenCombine/OpenCombine.git",
+      "state" : {
+        "revision" : "8576f0d579b27020beccbccc3ea6844f3ddfc2c2",
+        "version" : "0.14.0"
+      }
+    },
+    {
       "identity" : "swift-java",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/scade-platform/swift-java.git",
       "state" : {
         "branch" : "main",
         "revision" : "6b2cf43f63cc5959978caee931c487d07f7d9c03"
+      }
+    },
+    {
+      "identity" : "taskmanagementsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/6vedant/TaskManagementSDK.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e59affd37ab35435609a3e4c8cc88bdb50574076"
       }
     }
   ],

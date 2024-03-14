@@ -14,7 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/scade-platform/swift-java.git", branch: "main"),
-   ],
+        .package(url: "https://github.com/6vedant/TaskManagementSDK.git", .branch("main"))
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
@@ -22,6 +23,7 @@ let package = Package(
             name: "SwiftAndroidExample",
             dependencies: [
                     .product(name: "Java", package: "swift-java"),
+                   .product(name: "TaskManagementSDK", package: "TaskManagementSDK"),
             ]),
         .testTarget(
             name: "SwiftAndroidExampleTests",

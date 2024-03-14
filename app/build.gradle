@@ -46,8 +46,8 @@ dependencies {
 }
 
 task buildSwiftProject(type:Exec) {
-    commandLine '/Applications/Scade.app/Contents/PlugIns/ScadeSDK.plugin/Contents/Resources/Libraries/ScadeSDK/bin/scd',
-            'spm-archive', '--type', 'android',
+    commandLine '/Applications/Scade.app/Contents/PlugIns/ScadeSDK.plugin/Contents/Resources/Libraries/scd/bin/scd',
+            'archive', '--type', 'android',
             '--path', 'src/main/swift',
             '--platform', 'android-arm64-v8a',
             '--platform', 'android-x86_64',
