@@ -58,10 +58,9 @@ The task management functionality is provided by the [TaskManagementSDK](https:/
 2. Open the project in Android Studio.
 3. Build and run the project on an Android device or emulator.
 
-## Contributions
+## Contribution
 
-Contributions are welcome! Feel free to submit issues or pull requests.
+<p>Consider contributing by creating a pull request (PR) or opening an issue. By creating an issue, you can alert the repository's maintainers to any bugs or missing documentation you've found. 🐛📝 If you're feeling confident and want to make a bigger impact, creating a PR, can be a great way to help others. 📖💡 Remember, contributing to open source is a collaborative effort, and any contribution, big or small, is always appreciated! 🙌 So why not take the first step and start contributing today? 😊</p>
 
-## License
+#### Join SCADE Community: [SCADE Discord Channel](https://discord.gg/6PRedqCK)
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
